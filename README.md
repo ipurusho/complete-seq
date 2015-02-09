@@ -70,3 +70,6 @@ Once these paramenters are specified in detail, the pipeline is ready to run.
   
 
          python ./src/complete_seq.py -p {config file}.yaml
+
+
+### Eddie was here...
