@@ -71,5 +71,3 @@ Once these paramenters are specified in detail, the pipeline is ready to run.
 
          python ./src/SPEctRA.py -p {config file}.yaml
 
-
-### Eddie was here...
