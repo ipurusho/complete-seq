@@ -1,8 +1,8 @@
-project_Name: 
+project_Name: Dietz_Heroin 
 mapping:
-    fastQ_directory_path:
+    fastQ_directory_path: /sc/orga/scratch/lohy01/ForDavidDietz/FASTQ
     merge_directory_path:
-    proc: 
-    aligner:
-    genome: 
+    proc: 10
+    aligner: tophat2
+    genome: mouse
     strand: 

@@ -1,19 +1,19 @@
 Environment:
     cluster: Minerva
     server: 
-project_directory: /sc/orga//scratch/purusi01/RNAseq_projects
+project_directory: /sc/orga//scratch/lohy01/RNAseq_Projects/
 Short-read_aligners:
     tophat2: tophat/2.0.9
     bowtie2: bowtie2/2.1.0
     STAR: rna-star/2.3.0e
 genomes: 
     mouse: 
-        rRNApath: /sc/orga/work/purusi01/mm10/rRNA.bed
+        rRNApath: /sc/orga/work/lohy01/Databases/Bowtie2Index/MM10/rRNA.bed
         tophat2:  
-            gtf: /sc/orga/work/purusi01/mm10/gencode.vM2.annotation.gtf
-            index: /sc/orga/work/purusi01/mm10/genome
-        exonicPath: /sc/orga/work/purusi01/mm10/gencode_v14_exon_merged.bed
-        intronicPath: /sc/orga/work/purusi01/mm10/gencode_v14_intron.bed
+            gtf: /sc/orga/work/lohy01/Databases/Bowtie2Index/MM10/gencode.vM2.annotation.gtf
+            index: /sc/orga/work/lohy01/Databases/Bowtie2Index/MM10/genome
+        exonicPath: 
+        intronicPath: 
         intragenicPath:
         intergenicPath:
         STAR:
